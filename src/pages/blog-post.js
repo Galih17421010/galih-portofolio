@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 import Footer from "./element/footer";
 import Menu from "./element/menu";
 import Topbar from "./element/topbar";
@@ -16,9 +17,9 @@ function Blog_Post() {
               </div>
 
               <div className="blog-breadcrumb">
-                <a className="blog-home-link" href="blog-home.html">
+                <NavLink className="blog-home-link" to="/blog">
                   <i className="bi bi-arrow-left"></i> Back To Blog Home
-                </a>
+                </NavLink>
               </div>
               <div className="blog-entry">
                 <article className="post" />
@@ -182,19 +183,19 @@ function Blog_Post() {
                                 <form id="reply-form" className="reply-form form" method="post" action="#">
                                   <div className="row g-3">
                                     <div className="col-12 ">
-                                      <label className="sr-only" for="ccomment">
+                                      <label className="sr-only" htmlFor="ccomment">
                                         Leave a Comment
                                       </label>
                                       <textarea className="form-control" id="reply-comment" name="reply-comment" placeholder="Leave your reply" rows="12" required></textarea>
                                     </div>
                                     <div className="col-md-6 col-12">
-                                      <label className="sr-only" for="rname">
+                                      <label className="sr-only" htmlFor="rname">
                                         Name
                                       </label>
-                                      <input type="text" className="form-control" id="rname" name="name" placeholder="Name" minlength="2" required />
+                                      <input type="text" className="form-control" id="rname" name="name" placeholder="Name" minLength="2" required />
                                     </div>
                                     <div className="col-md-6 col-12 ">
-                                      <label className="sr-only" for="remail">
+                                      <label className="sr-only" htmlFor="remail">
                                         Email
                                       </label>
                                       <input type="email" className="form-control" id="remail" name="email" placeholder="Email" required />
@@ -333,19 +334,19 @@ function Blog_Post() {
                     <form id="comment-form" className="comment-form form" method="post" action="#">
                       <div className="row g-3">
                         <div className="col-12 col-md-6">
-                          <label className="sr-only" for="cname">
+                          <label className="sr-only" htmlFor="cname">
                             Name
                           </label>
-                          <input type="text" className="form-control" id="cname" name="name" placeholder="Name" minlength="2" required />
+                          <input type="text" className="form-control" id="cname" name="name" placeholder="Name" minLength="2" required />
                         </div>
                         <div className="col-md-6 col-12 ">
-                          <label className="sr-only" for="cemail">
+                          <label className="sr-only" htmlFor="cemail">
                             Email
                           </label>
                           <input type="email" className="form-control" id="cemail" name="email" placeholder="Email" required />
                         </div>
                         <div className="col-12">
-                          <label className="sr-only" for="ccomment">
+                          <label className="sr-only" htmlFor="ccomment">
                             Leave a Comment
                           </label>
                           <textarea className="form-control" id="ccomment" name="comment" placeholder="Leave your comment" rows="12" required></textarea>
