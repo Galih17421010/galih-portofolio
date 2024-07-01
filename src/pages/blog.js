@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 import Footer from "./element/footer";
 import Menu from "./element/menu";
 import Topbar from "./element/topbar";
@@ -21,12 +22,12 @@ function Blog() {
                   <p>Blog intro goes here. This is a space for me to share my journey as a software developer lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div className="section-cta text-center mt-4">
-                  <a className="btn btn-secondary theme-btn-cta" href="projects.html">
+                  <NavLink className="btn btn-secondary theme-btn-cta" to="/projects">
                     View My Projects
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-arrow-right-short" viewBox="0 0 16 16">
                       <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                     </svg>
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </section>
@@ -72,7 +73,7 @@ function Blog() {
                       </div>
                     </div>
                   </div>
-                  <a className="link-mask" href="blog-post.html"></a>
+                  <NavLink to="/blog-post" className="link-mask"></NavLink>
                 </div>
               </div>
               <div className="row g-5 justify-content-center">
@@ -111,7 +112,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
                 <div className="post-item col-12 col-md-6 col-lg-6">
@@ -146,7 +147,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
                 <div className="post-item col-12 col-md-6 col-lg-6">
@@ -185,7 +186,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
                 <div className="post-item col-12 col-md-6 col-lg-6">
@@ -223,7 +224,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
                 <div className="post-item col-12 col-md-6 col-lg-6">
@@ -259,7 +260,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
                 <div className="post-item col-12 col-md-6 col-lg-6">
@@ -294,7 +295,7 @@ function Blog() {
                         </ul>
                       </div>
                     </div>
-                    <a className="link-mask" href="blog-post.html"></a>
+                    <NavLink to="/blog-post" className="link-mask"></NavLink>
                   </div>
                 </div>
               </div>
@@ -334,12 +335,12 @@ function Blog() {
               <h3 className="section-heading text-start text-md-center text-highlight"> Need Help With Your Project?</h3>
               <div className="intro text-md-center">Lead generation intro goes here lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat egestas dui, quis ullamcorper massa pellentesque quis. </div>
               <div className="text-center mt-4">
-                <a className="btn btn-secondary" href="contact.html">
+                <NavLink to="/contact" className="btn btn-secondary">
                   Get In Touch{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
                   </svg>
-                </a>
+                </NavLink>
               </div>
             </section>
           </div>
