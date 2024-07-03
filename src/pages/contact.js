@@ -23,7 +23,7 @@ function Contact() {
                 <ul className="social-list list-inline mx-auto d-block d-lg-none py-3 text-center">
                   <li className="list-inline-item me-1 me-lg-2">
                     <a href="#">
-                      <i className="fa-brands fa-twitter fa-fw"></i>
+                      <i className="fa-brands fa-instagram fa-fw"></i>
                     </a>
                   </li>
                   <li className="list-inline-item me-1 me-lg-2">
@@ -37,17 +37,6 @@ function Contact() {
                       <i className="fa-brands fa-linkedin-in fa-fw"></i>
                     </a>
                   </li>
-
-                  <li className="list-inline-item me-1 me-lg-2">
-                    <a href="#">
-                      <i className="fa-brands fa-stack-overflow fa-fw"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item me-0 me-lg-2">
-                    <a href="#">
-                      <i className="fa-brands fa-medium fa-fw"></i>
-                    </a>
-                  </li>
                 </ul>
               </div>
 
@@ -57,23 +46,23 @@ function Contact() {
 
                   <div className="row g-3">
                     <div className="col-md-6">
-                      <label className="sr-only" for="cname">
+                      <label className="sr-only" htmlFor="cname">
                         Name
                       </label>
-                      <input type="text" className="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" />
+                      <input type="text" className="form-control" id="cname" name="name" placeholder="Name" minLength="2" required />
                     </div>
                     <div className="col-md-6">
-                      <label className="sr-only" for="cemail">
+                      <label className="sr-only" htmlFor="cemail">
                         Email
                       </label>
-                      <input type="email" className="form-control" id="cemail" name="email" placeholder="Email" required="" />
+                      <input type="email" className="form-control" id="cemail" name="email" placeholder="Email" required />
                     </div>
 
                     <div className="col-12">
-                      <label className="sr-only" for="cmessage">
+                      <label className="sr-only" htmlFor="cmessage">
                         Your message
                       </label>
-                      <textarea className="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required=""></textarea>
+                      <textarea className="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required></textarea>
                     </div>
                     <div className="col-12">
                       <button type="submit" className="btn w-100 btn-secondary py-2">

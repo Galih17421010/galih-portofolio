@@ -50,12 +50,12 @@ function Menu() {
                   </NavLink>
                 </li>
                 <li className="nav-item nav-item-close">
-                  {/* <NavLink aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
+                  <NavLink aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
                     <i className="bi bi-x"></i>
-                  </NavLink> */}
-                  <button aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
+                  </NavLink>
+                  {/* <button aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
                     <i className="bi bi-x"></i>
-                  </button>
+                  </button> */}
                 </li>
               </ul>
             </div>
