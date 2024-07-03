@@ -21,7 +21,7 @@ function Index() {
                 <div className="profile-intro text-md-center limit-max-width mx-auto">
                   <p>
                     Hi! I’m a Senior Developer with more than ten years of experience working in mobile banking apps. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Welcome to my online portfolio! Check out my{" "}
-                    <a href="projects.html">latest projects and case studies</a>.
+                    <NavLink to="/projects">latest projects and case studies</NavLink>
                   </p>
                 </div>
               </div>
