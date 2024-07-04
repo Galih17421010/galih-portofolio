@@ -26,19 +26,19 @@ function Menu() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/blog" className={({ isActive }) => (isActive ? "nav-link active d-flex flex-column" : "nav-link d-flex flex-column")}>
-                    <span className="icon-holder">
-                      <i className="fa-solid fa-pen-fancy"></i>
-                    </span>
-                    <span className="nav-text">Blog</span>
-                  </NavLink>
-                </li>
-                <li className="nav-item">
                   <NavLink to="/resume" className={({ isActive }) => (isActive ? "nav-link active d-flex flex-column" : "nav-link d-flex flex-column")}>
                     <span className="icon-holder">
                       <i className="fa-solid fa-file-lines"></i>
                     </span>
                     <span className="nav-text">Resume</span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/blog" className={({ isActive }) => (isActive ? "nav-link active d-flex flex-column" : "nav-link d-flex flex-column")}>
+                    <span className="icon-holder">
+                      <i className="fa-solid fa-pen-fancy"></i>
+                    </span>
+                    <span className="nav-text">Blog</span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -50,9 +50,9 @@ function Menu() {
                   </NavLink>
                 </li>
                 <li className="nav-item nav-item-close">
-                  <NavLink aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
+                  {/* <NavLink aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
                     <i className="bi bi-x"></i>
-                  </NavLink>
+                  </NavLink> */}
                   {/* <button aria-label="Close" className="btn-close" data-bs-dismiss="offcanvas" type="button">
                     <i className="bi bi-x"></i>
                   </button> */}

@@ -5,7 +5,7 @@ function Topbar() {
     <Fragment>
       <div className="top-bar text-center position-relative">
         <div className="top-bar-inner">
-          <NavLink className="menu-toggler" data-bs-toggle="offcanvas" to="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
+          <NavLink className="menu-toggler" data-bs-toggle="offcanvas" to="/offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
               <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
@@ -15,8 +15,8 @@ function Topbar() {
               <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
           </a>
-          <div className="mode-toggle text-center">
-            <input className="toggle" id="darkmode" type="checkbox" />
+          {/* <div className="mode-toggle text-center">
+            <input className="toggle" id="darkmode" type="checkbox" defaultChecked />
             <label className="toggle-btn mx-auto mb-0" htmlFor="darkmode">
               <span className="day-icon toggle-icon">
                 <i className="bi bi-sun-fill"></i>
@@ -25,7 +25,11 @@ function Topbar() {
                 <i className="bi bi-moon-fill"></i>
               </span>
             </label>
-          </div>
+          </div> */}
+          {/* <div className="mode-toggle text-center">
+            <input className="toggle" type="checkbox" id="darkModeSwitch" defaultChecked />
+            <label className="toggle-btn mx-auto mb-0" htmlFor="darkModeSwitch"></label>
+          </div> */}
           <NavLink to="/contact" className="btn btn-primary top-bar-cta">
             Hire Me
           </NavLink>

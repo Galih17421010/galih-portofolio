@@ -50,12 +50,12 @@ function Index() {
                         </h5>
                         <p className="card-text mb-1">Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div>
-                          <a className="card-link more-link" href="detail-project.html">
+                          <NavLink className="card-link more-link" to="/projects-detail">
                             View more{" "}
                             <span className="link-arrow">
                               <i className="bi bi-arrow-right"></i>
                             </span>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>
@@ -69,12 +69,12 @@ function Index() {
                         </h5>
                         <p className="card-text mb-1">Project summary goes here. Cras vehicula felis sed eros lacinia rhoncus.</p>
                         <div>
-                          <a className="card-link more-link" href="detail-project.html">
+                          <NavLink className="card-link more-link" to="/projects-detail">
                             View more{" "}
                             <span className="link-arrow">
                               <i className="bi bi-arrow-right"></i>
                             </span>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>
@@ -88,12 +88,12 @@ function Index() {
                         </h5>
                         <p className="card-text mb-1">Project summary goes here. Maecenas eget finibus risus. Etiam volutpat elit pellentesque felis dignissim, tempor maximus est commodo.</p>
                         <div>
-                          <a className="card-link more-link" href="detail-project.html">
+                          <NavLink className="card-link more-link" to="/projects-detail">
                             View more{" "}
                             <span className="link-arrow">
                               <i className="bi bi-arrow-right"></i>
                             </span>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>

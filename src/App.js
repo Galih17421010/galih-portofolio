@@ -10,17 +10,19 @@ import Blog_Post from "./pages/blog-post";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects-detail" element={<Projects_Detail />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog-post" element={<Blog_Post />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <div id="body">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects-detail" element={<Projects_Detail />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog-post" element={<Blog_Post />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
     </div>
   );
 }

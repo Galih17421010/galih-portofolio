@@ -11719,12 +11719,14 @@ a.more-link .link-arrow .bi {
   text-transform: uppercase;
   font-size: 0.675rem;
 }
+/* navlink active  */
 .side-panel .navbar-nav .nav-link.active {
   color: #fe655c;
 }
 .side-panel .navbar-nav .nav-link.active:hover {
   color: #fe655c;
 }
+/* ==  */
 .side-panel .navbar-nav .nav-link:hover {
   color: #fff;
 }
@@ -12708,12 +12710,14 @@ a.more-link .link-arrow .bi {
 .light-mode .side-panel .navbar-nav .nav-link:hover {
   color: #121822;
 }
+/* navlink active light mode  */
 .light-mode .side-panel .navbar-nav .nav-link.active {
   color: #fe655c;
 }
 .light-mode .side-panel .navbar-nav .nav-link.active:hover {
   color: #fe655c;
 }
+/* ==  */
 .light-mode .side-panel .nav-item-close .btn-close {
   color: #354765;
 }
